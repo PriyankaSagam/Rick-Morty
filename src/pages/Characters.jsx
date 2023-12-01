@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Form from '../components/Form';
-import CharacterDisplay from '../components/characterDisplay';
+import CharacterDisplay from '../components/CharacterDisplay';
 
 
 function Characters() {
