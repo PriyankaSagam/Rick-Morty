@@ -6,7 +6,7 @@ import CharacterDisplay from '../components/characterDisplay';
 
 function Characters() {
   const [characters, setCharacters] = useState([]);
-
+  // useEffect(() => {
     const getCharacter = async (searchTerm) => {
       console.log(searchTerm)
       const baseUrl = 'https://rickandmortyapi.com/api/character'
@@ -22,8 +22,7 @@ function Characters() {
         console.error(e);
       };
     };
-  //   useEffect(() => {
-  //   getCharacter()
+    // getCharacter()
   // }, [searchTerm]);
   
   
